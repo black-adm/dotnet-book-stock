@@ -36,6 +36,10 @@
         <Reference Include="System"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Core\Models\Entity.cs" />
+        <Compile Include="Models\Products\Product.cs" />
+        <Compile Include="Models\Suppliers\Address.cs" />
+        <Compile Include="Models\Suppliers\Supplier.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
