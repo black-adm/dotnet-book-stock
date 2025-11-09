@@ -1,0 +1,14 @@
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\Syscode42.Infra.dll.config
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\Syscode42.Infra.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\Syscode42.Infra.pdb
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\EntityFramework.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\Syscode42.Business.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\Syscode42.Business.pdb
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\EntityFramework.xml
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.csproj.AssemblyReference.cache
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.csproj.CoreCompileInputs.cache
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode4.EF872B53.Up2Date
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.pdb
