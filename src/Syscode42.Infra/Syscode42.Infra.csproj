@@ -48,11 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Repositories\AddressRepository.cs" />
     <Compile Include="Data\Context\AppDbContext.cs" />
     <Compile Include="Data\Mappings\AddressConfig.cs" />
     <Compile Include="Data\Mappings\ProductConfig.cs" />
     <Compile Include="Data\Mappings\SupplierConfig.cs" />
     <Compile Include="Data\Migrations\Configuration.cs" />
+    <Compile Include="Data\Repositories\ProductRepository.cs" />
+    <Compile Include="Data\Repositories\Repository.cs" />
+    <Compile Include="Data\Repositories\SupplierRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
