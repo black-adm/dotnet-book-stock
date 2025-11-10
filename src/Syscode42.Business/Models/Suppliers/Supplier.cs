@@ -13,5 +13,12 @@ namespace Syscode42.Business.Models.Suppliers
         public bool IsActive { get; set; }
         
         public ICollection<Product> Products { get; set; }
+        
+        public bool Validation()
+        {
+            var validation = new Validations.SupplierValidation();
+            var result = validation.Validate(this);
+            return result.IsValid;
+        }
     }
 }
