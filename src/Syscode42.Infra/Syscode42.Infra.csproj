@@ -49,7 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Context\AppDbContext.cs" />
+    <Compile Include="Data\Mappings\AddressConfig.cs" />
+    <Compile Include="Data\Mappings\ProductConfig.cs" />
     <Compile Include="Data\Mappings\SupplierConfig.cs" />
+    <Compile Include="Data\Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

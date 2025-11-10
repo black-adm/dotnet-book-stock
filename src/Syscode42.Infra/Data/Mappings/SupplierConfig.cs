@@ -18,8 +18,8 @@ namespace Syscode42.Infra.Data.Mappings
             Property(s => s.Document)
             .IsRequired()
             .HasMaxLength(14)
-            .HasColumnAnnotation("Index", 
-                new IndexAnnotation(new IndexAttribute{ IsUnique = true }));
+            .HasColumnAnnotation("Index",
+                new IndexAnnotation(new IndexAttribute { IsUnique = true }));
 
             HasRequired(s => s.Address)
                 .WithRequiredPrincipal(a => a.Supplier);
