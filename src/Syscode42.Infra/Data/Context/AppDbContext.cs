@@ -2,12 +2,17 @@
 using Syscode42.Business.Models.Suppliers;
 using Syscode42.Infra.Data.Mappings;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Syscode42.Infra.Data.Context
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext() : base("DefaultConnection") {}
+        public AppDbContext() : base("DefaultConnection") 
+        { 
+            Configuration.ProxyCreationEnabled = false;
+            Configuration.LazyLoadingEnabled = false;
+        }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Address> Addresses { get; set; }
@@ -15,9 +20,19 @@ namespace Syscode42.Infra.Data.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+
+            modelBuilder.Properties<string>()
+                .Configure(p => p
+                    .HasColumnType("varchar")
+                    .HasMaxLength(100));
+
             modelBuilder.Configurations.Add(new SupplierConfig());
             modelBuilder.Configurations.Add(new AddressConfig());
             modelBuilder.Configurations.Add(new ProductConfig());
+        
             base.OnModelCreating(modelBuilder);
         }
     }

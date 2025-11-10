@@ -12,6 +12,9 @@ namespace Syscode42.AppMvc
     {
         protected void Application_Start()
         {
+            AppDomain.CurrentDomain.SetData("DataDirectory",
+                Server.MapPath("~/App_Data"));
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

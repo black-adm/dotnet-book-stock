@@ -26,16 +26,13 @@ namespace Syscode42.Infra.Data.Mappings
                 .HasMaxLength(250);
 
             Property(a => a.Neighborhood)
-                .IsRequired()
-                .HasMaxLength(100);
+                .IsRequired();
 
             Property(a => a.City)
-                .IsRequired()
-                .HasMaxLength(100);
+                .IsRequired();
 
             Property(a => a.State)
-                .IsRequired()
-                .HasMaxLength(100);
+                .IsRequired();
 
             ToTable("Addresses");
         }
