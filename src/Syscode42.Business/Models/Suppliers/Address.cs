@@ -12,6 +12,6 @@ namespace Syscode42.Business.Models.Suppliers
         public string City { get; set; }
         public string State { get; set; }
         
-        public Supplier supplier { get; set; }
+        public Supplier Supplier { get; set; }
     }
 }
