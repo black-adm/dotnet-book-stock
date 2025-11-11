@@ -41,13 +41,19 @@
   <ItemGroup>
     <Compile Include="Core\Data\IRepository.cs" />
     <Compile Include="Core\Models\Entity.cs" />
+    <Compile Include="Core\Services\BaseService.cs" />
+    <Compile Include="Core\Validations\Documents\DocsValidation.cs" />
     <Compile Include="Models\Products\IProductRepository.cs" />
     <Compile Include="Models\Products\Product.cs" />
+    <Compile Include="Models\Products\Validations\ProductValidation.cs" />
     <Compile Include="Models\Suppliers\Address.cs" />
     <Compile Include="Models\Suppliers\IAddressRepository.cs" />
     <Compile Include="Models\Suppliers\ISupplerRepository.cs" />
+    <Compile Include="Models\Suppliers\Services\ISupplierService.cs" />
+    <Compile Include="Models\Suppliers\Services\SupplierService.cs" />
     <Compile Include="Models\Suppliers\Supplier.cs" />
     <Compile Include="Models\Suppliers\SupplierType.cs" />
+    <Compile Include="Models\Suppliers\Validations\AddressValidation.cs" />
     <Compile Include="Models\Suppliers\Validations\SupplierValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
