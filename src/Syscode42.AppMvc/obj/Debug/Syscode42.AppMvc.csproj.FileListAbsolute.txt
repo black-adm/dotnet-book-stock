@@ -81,3 +81,5 @@ C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\obj\De
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\obj\Debug\Syscode4.9867490A.Up2Date
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\obj\Debug\Syscode42.AppMvc.dll
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\obj\Debug\Syscode42.AppMvc.pdb
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\bin\FluentValidation.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.AppMvc\bin\FluentValidation.xml

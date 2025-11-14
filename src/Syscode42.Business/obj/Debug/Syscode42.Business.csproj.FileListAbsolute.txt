@@ -4,3 +4,6 @@ C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\obj\
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\obj\Debug\Syscode42.Business.csproj.CoreCompileInputs.cache
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\obj\Debug\Syscode42.Business.dll
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\obj\Debug\Syscode42.Business.pdb
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\bin\Debug\FluentValidation.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\bin\Debug\FluentValidation.xml
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Business\obj\Debug\Syscode4.23A54683.Up2Date

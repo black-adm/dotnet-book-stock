@@ -12,3 +12,5 @@ C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Deb
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode4.EF872B53.Up2Date
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.dll
 C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\obj\Debug\Syscode42.Infra.pdb
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\FluentValidation.dll
+C:\Users\matth\source\repos\dotnet\dotnet-book-stock\src\Syscode42.Infra\bin\Debug\FluentValidation.xml

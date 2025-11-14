@@ -5,8 +5,8 @@ namespace Syscode42.Business.Core.Services
 {
     public abstract class BaseService
     {
-        protected bool ExecuteValidation<TV, TE>(TV validation, TE entity)
-            where TV: AbstractValidator<TE> where TE : Entity
+        protected bool ExecuteValidation<TValidation, TEntity>(TValidation validation, TEntity entity)
+            where TValidation : AbstractValidator<TEntity> where TEntity : Entity
         {
             var validator = validation.Validate(entity);
             return validator.IsValid;
