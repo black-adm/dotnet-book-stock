@@ -45,6 +45,8 @@
     <Compile Include="Core\Validations\Documents\DocsValidation.cs" />
     <Compile Include="Models\Products\IProductRepository.cs" />
     <Compile Include="Models\Products\Product.cs" />
+    <Compile Include="Models\Products\Services\IProductService.cs" />
+    <Compile Include="Models\Products\Services\ProductService.cs" />
     <Compile Include="Models\Products\Validations\ProductValidation.cs" />
     <Compile Include="Models\Suppliers\Address.cs" />
     <Compile Include="Models\Suppliers\IAddressRepository.cs" />
