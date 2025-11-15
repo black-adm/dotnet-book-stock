@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="Core\Data\IRepository.cs" />
     <Compile Include="Core\Models\Entity.cs" />
+    <Compile Include="Core\Notifications\INotifier.cs" />
+    <Compile Include="Core\Notifications\Notification.cs" />
+    <Compile Include="Core\Notifications\Notifier.cs" />
     <Compile Include="Core\Services\BaseService.cs" />
     <Compile Include="Core\Validations\Documents\DocsValidation.cs" />
     <Compile Include="Models\Products\IProductRepository.cs" />
