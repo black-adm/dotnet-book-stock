@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Syscode42.Business.Core.Notifications;
 using Syscode42.Business.Core.Services;
 using Syscode42.Business.Models.Products.Validations;
 
@@ -9,7 +10,8 @@ namespace Syscode42.Business.Models.Products.Services
 	{
 		private readonly IProductRepository _productRepository;
 
-		public ProductService(IProductRepository productRepository)
+		public ProductService(IProductRepository productRepository, INotifier notifier) 
+			: base(notifier)
 		{
 			_productRepository = productRepository;
 		}
